@@ -1,0 +1,18 @@
+ETAPA 4 — WIKI DISEÑO WEB
+
+1. Extrae el ZIP completo; conserva las carpetas y sus nombres.
+2. Para visualizarlo, abre index.html en Chrome, Firefox o Edge.
+3. En Dreamweaver: Sitio > Nuevo sitio. Selecciona esta carpeta como carpeta local. Después abre index.html y revisa Código y Vista en vivo.
+4. Guarda las modificaciones en esta misma carpeta. Para entregar o transferir a tu compañero, comprime la carpeta completa.
+
+Contenido: HTML5 semántico, CSS adaptable, JavaScript para búsqueda local y tres recursos SVG originales. No necesita servidor, instalación ni conexión para el contenido local. Los enlaces de recursos requieren Internet.
+
+Base: mockup_equipo2g2 (1).pdf, páginas 4, 5, 9, 13 y 35. Se conservan paleta, menú superior, temas, sumario, tarjetas y pie. El tema se adapta a Diseño Web. Las otras páginas del equipo aún no están integradas.
+
+Tipografía: CSS declara Montserrat para títulos, Open Sans para cuerpo y Lora para pie. No se incluyen los archivos de esas fuentes; si no están instaladas, el navegador utiliza Arial y Georgia. Para reproducirlas exactamente, añade las fuentes con licencia a una carpeta fuentes y define @font-face en estilos.css.
+
+Este archivo se creó como código compatible con Dreamweaver. Deben abrirlo y revisarlo en ese programa para realizar la maquetación solicitada por la actividad. No se afirma que ya se trabajó dentro de Dreamweaver.
+
+Flujo sugerido: una persona revisa la maquetación en Dreamweaver; la otra revisa textos, organización y recursos. Después intercambian la carpeta completa.
+
+Revisión de color: se utilizan únicamente los siete colores de la paleta del documento del equipo. Los encabezados usan gris claro con acentos verde olivo para mantener su lectura sobre el fondo oscuro.
