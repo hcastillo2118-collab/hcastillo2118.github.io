@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fuentes/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fuentes/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../fuentes/Lora-VariableFont_wght.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("../fuentes/RobotoSlab-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fuentes/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("../fuentes/NunitoSans.ttf") format("truetype");
+  font-weight: 200 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fuentes/Merriweather.ttf") format("truetype");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+	/* Paleta y estructura del mockup del equipo. */
+:root{--fondo:#0F1926;--azul:#1A1C40;--panel:#262A47;--morado:#57568C;--acento:#9286D9;--gris:#D9D9D9;--olivo:#7D8C46}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--fondo);color:var(--gris);font-family:"Open Sans",Arial,sans-serif;line-height:1.65}a{color:inherit}header{display:flex;align-items:center;gap:30px;padding:18px 24px;background:var(--gris);color:#57568C}header nav{display:flex;gap:28px;margin:auto;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:14px}header nav a{text-decoration:none}.logo{font:800 24px Montserrat,Arial,sans-serif;text-decoration:none;color:var(--azul);white-space:nowrap}.logo span{color:#9286D9}form{display:flex;border:2px solid #9286D9;border-radius:24px;padding:3px 10px;width:230px}input{min-width:0;width:100%;border:0;background:none;color:var(--azul);padding:5px}button{border:0;background:none;color:var(--morado);font-size:25px;cursor:pointer}.layout{display:grid;grid-template-columns:210px 1fr;gap:45px}aside{font-size:13px}aside h2{font-size:17px;margin:0;color:#D9D9D9}.temas,.sumario{padding:30px 20px 40px;border-bottom-right-radius:100px}.temas{background:var(--morado)}.temas ul{padding-left:15px}.temas li{margin-bottom:12px}.temas [aria-current]{font-weight:bold;text-decoration:underline}.temas small{display:block;font-size:11px}.sumario{background:var(--panel);display:flex;flex-direction:column;gap:10px}.sumario a{font-size:12px}.sumario span{font-size:12px;color:#D9D9D9}main{padding:24px 45px 50px 0;min-width:0}h1,h2,h3{font-family:Montserrat,Arial,sans-serif;line-height:1.25}h1{font-size:clamp(28px,3.2vw,44px);color:#D9D9D9;margin:4px 0 30px}main>section>h2{color:#D9D9D9;font-size:20px;margin:30px 8px 18px}.tarjeta{background:var(--gris);color:#0F1926;border-radius:32px;padding:30px 30px}.tarjeta p{max-width:75ch;margin:0 0 14px}.tarjeta p:last-child{margin-bottom:0}.tarjeta h2{font-size:26px;margin:0 0 18px}.tarjeta h3{font-size:19px}.etiqueta{font-weight:bold;color:#57568C;font-size:12px;letter-spacing:1px}.intro{display:grid;grid-template-columns:2fr 1fr;gap:40px;align-items:center}figure{margin:0}figure img{display:block;width:100%;height:auto;border:2px solid var(--olivo);border-radius:8px}figcaption{font-size:13px;margin-top:10px}.cards,.comparacion{display:grid;grid-template-columns:1fr 1fr;gap:22px}.comparacion{margin:24px 0}summary{cursor:pointer;padding:12px;background:var(--morado);border-radius:10px}details .tarjeta{margin-top:12px}section{scroll-margin-top:20px}footer{display:flex;gap:50px;align-items:center;background:var(--azul);border-radius:80px 80px 0 0;padding:25px 60px;font-family:Lora,Georgia,serif;font-size:13px;text-align:center}footer strong{font:bold 30px Montserrat,Arial,sans-serif;line-height:1}footer div{flex:1}.arriba{display:inline-block;margin-top:30px}.saltar{position:absolute;left:-9999px}.saltar:focus{left:10px;top:10px;background:var(--gris);color:var(--fondo);padding:10px;z-index:2}.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}:focus-visible{outline:3px solid #9286D9;outline-offset:4px}#resultado:empty{display:none}#resultado{padding:10px 24px;margin:0;background:var(--panel)}@media(max-width:1000px){header{flex-wrap:wrap;gap:16px}header nav{order:3;width:100%;justify-content:center}.layout{grid-template-columns:180px 1fr;gap:24px}main{padding-right:24px}.intro{grid-template-columns:1fr}.intro figure{max-width:340px}.cards{grid-template-columns:1fr}}@media(max-width:600px){header{padding:15px}.logo{font-size:20px}form{width:100%}header nav{font-size:11px;gap:16px}.layout{display:block}aside{display:grid;grid-template-columns:1fr 1fr}.temas,.sumario{padding:20px;border-radius:0 0 35px 0}.temas li{margin-bottom:7px}main{padding:25px 18px}.tarjeta{padding:22px;border-radius:24px}.comparacion{grid-template-columns:1fr}footer{padding:30px 24px;gap:20px;border-radius:40px 40px 0 0}footer strong{font-size:22px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* El verde olivo se conserva como acento sin reducir la legibilidad del texto. */
+h1{border-left:6px solid var(--olivo);padding-left:15px}main>section>h2{border-bottom:2px solid var(--olivo);padding-bottom:10px}.arriba{background:var(--olivo);color:var(--fondo);font-weight:bold;padding:10px 18px;border-radius:8px}.tarjeta a{color:var(--azul);text-decoration:underline}
+#que-es p {
+  font-family: "Roboto Slab", Georgia, serif;
+}
+#elementos p,
+#navegacion p,
+#colabora p,
+#acerca p {
+  font-family: "Inter", Arial, sans-serif;
+}
+aside,
+input,
+button,
+figcaption,
+summary,
+.arriba {
+  font-family: "Nunito Sans", Arial, sans-serif;
+}
+#ejemplos details p {
+  font-family: "Merriweather", Georgia, serif;
+}
